@@ -1,0 +1,9 @@
+spring:
+  datasource:
+    url: jdbc:mysql://localhost:3306/park?serverTimezone=Asia/Seoul
+    username: root
+    password: Phjcwe246812!
+    driver-class-name: com.mysql.jdbc.Driver
+mybatis:
+  type-aliases-package: com.timeline.springwebservice
+  mapper-locations: mybatis/mapper/**/*.xml
